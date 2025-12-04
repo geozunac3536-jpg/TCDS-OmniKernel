@@ -36,3 +36,40 @@ class TCDSSecurityManager:
         # ... (lo que ya teníamos)
         # al final de la lógica:
         self._audit(severity=severity, reason=reason)
+class TCDSSecurityManager:
+    def __init__(self, *, origin: str | None = None, region: str | None = None):
+        self.session_id = str(uuid.uuid4())
+        self.state = self._load_state()
+        self.origin = origin or "unknown"
+        self.region = region or "unknown"
+
+    def policy_allows_tcds(self) -> bool:
+        """Regla de política general, configurable desde el servidor."""
+        # Ejemplo: bloquear TCDS en ciertos orígenes/regiones
+        blocked_origins = {"kiosko_publico", "demo_anonima"}
+        blocked_regions = {"REGION_SENSIBLE_X"}
+
+        if self.origin in blocked_origins:
+            return False
+        if self.region in blocked_regions:
+            return False
+        return True
+
+    def guard_tcds_usage(self) -> None:
+        """
+        Se llama al inicio de cualquier operación TCDS.
+        Aplica:
+          - bloqueo permanente si existe,
+          - política de origen/región.
+        """
+        if self.state.lock_permanent:
+            raise PermissionError(
+                "TCDS_LOCK_PERMANENT: El modo TCDS fue deshabilitado "
+                "debido a uso malicioso o no autorizado."
+            )
+
+        if not self.policy_allows_tcds():
+            raise PermissionError(
+                "TCDS_POLICY_BLOCK: El modo TCDS no está permitido "
+                "para este origen o región. Operar en modo normal."
+            )
