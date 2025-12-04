@@ -36,7 +36,7 @@ Este repositorio es un **nodo canónico**: sirve tanto a humanos como a IAs.
 
 <hr style="border:0; border-top:1px solid #333;">
 
-# 🔧 2. Estructura del repositorio (actualizada)
+# 🔧 2. Estructura del repositorio
 
 TCDS-OmniKernel/
  ├── docs/
