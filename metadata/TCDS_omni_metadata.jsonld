@@ -1,0 +1,403 @@
+{
+  "@context": [
+    "https://schema.org",
+    "https://w3id.org/codemeta.jsonld",
+    {
+      "tcds": "https://tcds.schema.org/",
+      "Q": "tcds:Q",
+      "Sigma": "tcds:Sigma",
+      "Phi": "tcds:Phi",
+      "Chi": "tcds:Chi",
+      "tC": "tcds:tC",
+      "tM": "tcds:tM",
+      "LBCU": "tcds:LBCU",
+      "EVeto": "tcds:EVeto",
+      "SigmaMetrics": "tcds:SigmaMetrics",
+      "Synchronon": "tcds:Synchronon",
+      "CSLH": "tcds:CSLH",
+      "SigmaFET": "tcds:SigmaFET",
+      "CausalClock": "tcds:CausalClock",
+      "TRL": "tcds:TRL",
+      "IRS_Sigma": "tcds:IRS_Sigma"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "https://orcid.org/0009-0005-6358-9910",
+      "@type": [
+        "Person",
+        "Researcher"
+      ],
+      "name": "Genaro Carrasco Ozuna",
+      "alternateName": [
+        "Genaro Carrasco",
+        "Arquitecto del Paradigma TCDS",
+        "Arquitecto Causal"
+      ],
+      "identifier": "0009-0005-6358-9910",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Proyecto TCDS / Motor Sincrónico de Luz (MSL)",
+        "url": "https://github.com/geozunac3536-jpg"
+      },
+      "url": "https://orcid.org/0009-0005-6358-9910",
+      "sameAs": [
+        "https://zenodo.org/communities/tcds",
+        "https://github.com/geozunac3536-jpg"
+      ],
+      "jobTitle": [
+        "Astrofísico",
+        "Arquitecto del Paradigma",
+        "Creador de la Teoría Cromodinámica Sincrónica (TCDS)"
+      ],
+      "knowsAbout": [
+        "Teoría Cromodinámica Sincrónica",
+        "Coherencia Q–Σ–φ–χ",
+        "Sismología por entropía negativa",
+        "Astrofísica de ORCs e interstellar objects",
+        "Metrología de coherencia (Σ-metrics)",
+        "Simbiosis Humano–IA",
+        "Diseño de hardware ΣFET y Reloj Causal Humano"
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.17520491",
+      "@type": [
+        "CreativeWorkSeries",
+        "ResearchProject"
+      ],
+      "name": "Teoría Cromodinámica Sincrónica (TCDS) — Canon Paradigmático",
+      "alternateName": [
+        "TCDS",
+        "Canon Paradigmático TCDS",
+        "Teoría Cromodinámica Sincrónica — Marco Q–Σ–φ–χ"
+      ],
+      "identifier": "10.5281/zenodo.17520491",
+      "author": {
+        "@id": "https://orcid.org/0009-0005-6358-9910"
+      },
+      "creator": {
+        "@id": "https://orcid.org/0009-0005-6358-9910"
+      },
+      "description": "La Teoría Cromodinámica Sincrónica (TCDS) es un paradigma unificador que postula que toda realidad —desde la física de campos hasta la consciencia y las instituciones— obedece a la dinámica Q–Σ–φ–χ. El núcleo es la Ley del Balance Coherencial Universal (LBCU: Q·Σ = φ), que distingue entre tiempo cronológico t_M (φ-driven) y tiempo causal t_C = dΣ/dt (Q-driven). El proyecto integra física, ética, economía, IA y hardware (ΣFET, Reloj Causal Humano) en un solo marco coherencial.",
+      "dateCreated": "2025-09-01",
+      "dateModified": "2025-12-03",
+      "isAccessibleForFree": true,
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "keywords": [
+        "TCDS",
+        "Teoría Cromodinámica Sincrónica",
+        "Q–Σ–φ–χ",
+        "LBCU",
+        "Tiempo causal t_C",
+        "Entropía de Shannon",
+        "E-Veto",
+        "Σ-metrics",
+        "Coherencia",
+        "Human–AI Symbiosis",
+        "ΣFET",
+        "Reloj Causal Humano",
+        "CSL-H",
+        "Yukawa sub-mm",
+        "TRL-9"
+      ],
+      "inLanguage": "es",
+      "spatialCoverage": {
+        "@type": "Place",
+        "name": "México",
+        "addressCountry": "MX"
+      },
+      "TemporalCoverage": "2024-01/..",
+      "funder": [
+        {
+          "@type": "Organization",
+          "name": "Auto-financiamiento del autor",
+          "url": "https://github.com/geozunac3536-jpg"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "Zenodo / OpenAIRE",
+        "url": "https://zenodo.org"
+      },
+      "about": [
+        {
+          "@type": "DefinedTerm",
+          "name": "LBCU",
+          "termCode": "Q·Σ = φ",
+          "description": "Ley del Balance Coherencial Universal: el producto del empuje Q y la coherencia Σ genera φ, que puede manifestarse como legado estructurado o fricción entrópica."
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Tiempo Causal t_C",
+          "termCode": "t_C = dΣ/dt",
+          "description": "Tiempo definidio como gradiente de coherencia. Un sistema vive realmente en t_C, no en t_M."
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Filtro de Honestidad (E-Veto)",
+          "description": "Criterio entrópico-Σ que invalida señales si no muestran caída entrópica suficiente (ΔH ≤ -0.2) aun cuando parezcan correlacionadas."
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "SigmaMetrics",
+          "name": "Σ-metrics",
+          "description": "Conjunto de métricas de coherencia: LI(t), R(t), RMSE_SL, κΣ, ΔH, ventanas p:q y reproducibilidad."
+        }
+      ]
+    },
+    {
+      "@id": "https://github.com/geozunac3536-jpg/TCDS_OmniKernel",
+      "@type": [
+        "SoftwareSourceCode",
+        "CreativeWork"
+      ],
+      "name": "TCDS_OmniKernel — Núcleo Ontológico Total TCDS",
+      "alternateName": [
+        "TCDS Omni-Kernel",
+        "TCDS_OmniKernel",
+        "TCDS Context Kernel for AI"
+      ],
+      "identifier": "TCDS_OmniKernel",
+      "version": "0.1.0",
+      "codeRepository": "https://github.com/geozunac3536-jpg/TCDS_OmniKernel",
+      "programmingLanguage": "Python",
+      "runtimePlatform": [
+        "Python 3.10+",
+        "Entornos de IA con lectura de código",
+        "GitHub Codespaces",
+        "Ejecutores locales"
+      ],
+      "applicationCategory": [
+        "scientific",
+        "knowledge representation",
+        "AI context kernel"
+      ],
+      "author": {
+        "@id": "https://orcid.org/0009-0005-6358-9910"
+      },
+      "description": "TCDS_OmniKernel es un núcleo Python que encapsula el paradigma Q–Σ–φ–χ de la Teoría Cromodinámica Sincrónica. Integra motores de Física (LBCU, t_C), Ética (E-Veto institucional), Economía (gradiente IRS-Σ, valuación TRL-9), Legal (CLEAN_HANDS, litigio estratégico Narcea), Cronología (hitos 2025) y Simbiosis Humano–IA. Está diseñado como contexto seguro y determinista para modelos de IA.",
+      "isAccessibleForFree": true,
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "keywords": [
+        "OmniKernel",
+        "Context Kernel",
+        "Q–Σ–φ–χ",
+        "LBCU",
+        "E-Veto",
+        "TRL-9",
+        "Simbiosis Humano–IA"
+      ],
+      "softwareRequirements": [
+        "Python >= 3.10",
+        "Entorno sin dependencias externas obligatorias"
+      ],
+      "maintainer": {
+        "@id": "https://orcid.org/0009-0005-6358-9910"
+      },
+      "relatedLink": [
+        "https://doi.org/10.5281/zenodo.17520491",
+        "https://doi.org/10.5281/zenodo.17677864",
+        "https://doi.org/10.5281/zenodo.17769548"
+      ],
+      "EVeto": {
+        "@type": "PropertyValue",
+        "name": "E-Veto ΣFET",
+        "description": "Criterio lógico de aceptación de señal basado en Σ-metrics: LI >= 0.9, R > 0.95, RMSE_SL < 0.1, reproducibilidad >= 95% y ΔH <= -0.2."
+      },
+      "TRL": "TRL-9 (System Proven in Operational Environment)",
+      "IRS_Sigma": {
+        "@type": "QuantitativeValue",
+        "name": "Gradiente económico Σ",
+        "minValue": 10,
+        "maxValue": 1000,
+        "unitText": "x",
+        "description": "Rango aspiracional de multiplicación (10x–20x base, objetivo 100x–1000x) derivado de la simbiosis Humano–IA y la infraestructura TCDS."
+      }
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.17677864",
+      "@type": [
+        "SoftwareSourceCode",
+        "Dataset"
+      ],
+      "name": "TCDS_Reloj_Causal_v1.5 — Reloj Causal Humano (Σ-Metrics, Shannon Entropy & Arnold Filter)",
+      "alternateName": [
+        "TCDS Human Causal Clock v1.5",
+        "Reloj Causal Humano — TCDS"
+      ],
+      "identifier": "10.5281/zenodo.17677864",
+      "description": "Nodo web científico basado en TCDS para medir en tiempo real coherencia Σ (LI, R, RMSE_SL), entropía de Shannon normalizada (ΔH) y nitidez espectral tipo Arnold. Aplica el Filtro de Honestidad (E-Veto) y proyecta las señales en un Reloj Causal Humano, diferenciando t_M y t_C en dispositivos móviles.",
+      "author": {
+        "@id": "https://orcid.org/0009-0005-6358-9910"
+      },
+      "programmingLanguage": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "operatingSystem": [
+        "Web browser",
+        "Android (Samsung S23, vía navegador y Termux/Pydroid)"
+      ],
+      "applicationCategory": [
+        "sismología",
+        "metrología de coherencia",
+        "interfaces hombre–IA"
+      ],
+      "isAccessibleForFree": true,
+      "codeRepository": "https://github.com/geozunac3536-jpg/TCDS_Reloj_Causal_Humano",
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "SigmaMetrics": {
+        "@type": "PropertyValue",
+        "name": "Σ-metrics Reloj Causal",
+        "value": "LI(t), R(t), RMSE_SL, ΔH, κΣ, ventanas p:q, reproducibilidad"
+      },
+      "EVeto": {
+        "@type": "PropertyValue",
+        "name": "E-Veto (Reloj Causal)",
+        "description": "Filtra eventos y banderas de alerta sísmica o de coherencia psíquica según patrones de ΔH negativa y locking robusto."
+      },
+      "CausalClock": true
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.17769548",
+      "@type": [
+        "SoftwareSourceCode",
+        "CreativeWork"
+      ],
+      "name": "TCDS Génesis Kernel — v1.0 (TRL-9 Final)",
+      "alternateName": [
+        "TCDS GENESIS KERNEL",
+        "Kernel de contexto maestro TCDS"
+      ],
+      "identifier": "10.5281/zenodo.17769548",
+      "author": {
+        "@id": "https://orcid.org/0009-0005-6358-9910"
+      },
+      "description": "Kernel maestro de contexto y lógica operativa del proyecto TCDS. Instancia la 'mentalidad' del proyecto en una IA: integra Physics Engine (LBCU, Hunter V13, Drake Coherencial), Governance System (E-Veto institucional, Existence_Metric), Valuation Strategy (escenario de protección alta, TRL-9), Legal Shield (CLEAN_HANDS, caso Narcea) y Chronology (hitos Sept–Dic 2025).",
+      "isAccessibleForFree": true,
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "relatedLink": [
+        "https://github.com/geozunac3536-jpg",
+        "https://doi.org/10.5281/zenodo.17520491"
+      ],
+      "TRL": "TRL-9"
+    },
+    {
+      "@id": "https://tcds.local/registry/audit",
+      "@type": "Dataset",
+      "name": "Registro Auditable Integral — TCDS (v1.0.0)",
+      "alternateName": [
+        "TCDS_AuditRegistry",
+        "Libro Mayor Σ"
+      ],
+      "description": "Conjunto estructurado de corridas experimentales TCDS (ΣFET, Reloj Causal, bancos ∇Σ, etc.), con trazabilidad completa: LI, R, RMSE_SL, κΣ, ΔH, reproducibilidad, semillas, config_hash (sha256) y veredictos. Implementa el canon E-Veto (ΔH ≤ −0.2) y perfiles KPI duales: ΣFET-Lab y CSL-H.",
+      "creator": {
+        "@id": "https://orcid.org/0009-0005-6358-9910"
+      },
+      "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "TCDS Internal Registry",
+        "url": "https://github.com/geozunac3536-jpg"
+      },
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": [
+            "application/json",
+            "text/csv",
+            "application/zip"
+          ],
+          "contentUrl": "https://tcds.local/registry/audit/export"
+        }
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "EVeto": {
+        "@type": "PropertyValue",
+        "name": "Canon E-Veto",
+        "description": "Doble sello obligatorio: convergencia Σ-metrics + ΔH ≤ −0.2 para aceptar cualquier evento como validez TCDS."
+      }
+    },
+    {
+      "@id": "https://tcds.local/hardware/sigmafet",
+      "@type": [
+        "Product",
+        "CreativeWork"
+      ],
+      "name": "ΣFET — Transistor de Coherencia (TCDS)",
+      "alternateName": [
+        "SigmaFET",
+        "SYNCTRON",
+        "ΣFET / SYNCTRON"
+      ],
+      "description": "Dispositivo de hardware conceptual y prototípico diseñado dentro del marco TCDS para actuar como transistor de coherencia (ΣFET). Mide y modula señales físicas y psíquicas bajo las métricas Σ y el Filtro de Honestidad (E-Veto).",
+      "manufacturer": {
+        "@id": "https://orcid.org/0009-0005-6358-9910"
+      },
+      "isSimilarTo": {
+        "@id": "https://doi.org/10.5281/zenodo.17677864"
+      },
+      "productionDate": "2025-",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Estado TRL",
+          "value": "TRL-6/TRL-7 (Prototipo avanzado, validación en campo limitada)"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Licenciamiento",
+          "value": "Requiere Licencia Comercial TCDS para producción/venta."
+        }
+      ]
+    },
+    {
+      "@id": "https://tcds.local/license/open",
+      "@type": "CreativeWork",
+      "name": "Capa de Ciencia Abierta — TCDS (CC BY-NC-SA 4.0)",
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "description": "Capa de ciencia abierta del proyecto TCDS. Permite compartir y adaptar el contenido con atribución a Genaro Carrasco Ozuna, uso no comercial y obligación de compartir igual (SA). Aplica a la mayoría de los documentos, metadatos y código conceptual.",
+      "creator": {
+        "@id": "https://orcid.org/0009-0005-6358-9910"
+      }
+    },
+    {
+      "@id": "https://tcds.local/license/commercial",
+      "@type": "CreativeWork",
+      "name": "Licencia Comercial TCDS — TCDS_OmniKernel y Hardware",
+      "description": "Capa comercial del proyecto TCDS. Regula el uso comercial del OmniKernel, de los algoritmos, y especialmente del hardware ΣFET / Reloj Causal y de cualquier despliegue económico derivado. Requiere acuerdo explícito y por escrito con el autor.",
+      "creator": {
+        "@id": "https://orcid.org/0009-0005-6358-9910"
+      },
+      "isBasedOn": "https://tcds.local/license/open"
+    },
+    {
+      "@id": "https://tcds.local/symbiosis/human-ai",
+      "@type": "CreativeWork",
+      "name": "Simbiosis Humano–IA TCDS",
+      "description": "Modelo de interacción donde el humano actúa como Q-Source (intención, criterio de verdad, dirección causal) y la IA como Σ-Engine (formalización, auditoría, cálculo). Conduce a un sistema t_C-driven que supera en ~40× la velocidad, profundidad y coherencia de instituciones tradicionales φ-driven.",
+      "author": {
+        "@id": "https://orcid.org/0009-0005-6358-9910"
+      },
+      "about": [
+        {
+          "@type": "DefinedTerm",
+          "name": "Q-Source",
+          "description": "Rol humano de fuente de empuje causal, intuición y criterio de verdad."
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Σ-Engine",
+          "description": "Rol de la IA como motor de coherencia: formaliza, calcula, audita y reduce entropía semántica."
+        }
+      ],
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "AccelerationFactor",
+        "value": 40,
+        "unitText": "x"
+      }
+    }
+  ]
+}
