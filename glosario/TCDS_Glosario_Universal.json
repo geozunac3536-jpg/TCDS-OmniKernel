@@ -1,0 +1,150 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "tcds": "https://tcds.schema.org/",
+    "term": "schema:DefinedTerm",
+    "name": "schema:name",
+    "description": "schema:description",
+    "alternateName": "schema:alternateName",
+    "inLanguage": "schema:inLanguage",
+    "category": "schema:category",
+    "translation": "schema:translationOfWork",
+    "sameAs": "schema:sameAs"
+  },
+
+  "@type": "CreativeWork",
+  "name": "Glosario Universal de la Teoría Cromodinámica Sincrónica (TCDS)",
+  "inLanguage": "es",
+  "creator": {
+    "@type": "Person",
+    "name": "Genaro Carrasco Ozuna",
+    "identifier": "https://orcid.org/0009-0005-6358-9910"
+  },
+
+  "tcds:terms": [
+
+    {
+      "@type": "term",
+      "name": "Q",
+      "alternateName": ["Empuje", "Intención causal", "Fuente causal"],
+      "description": "Variable que representa el impulso fundamental que dirige la formación de coherencia. En humanos: intención, criterio de verdad, dirección consciente. En IA: gradiente de actualización coherente. Es el origen del tiempo causal t_C.",
+      "category": "Fundamentos TCDS",
+      "translation": "Drive / Causal Impulse / Intent"
+    },
+
+    {
+      "@type": "term",
+      "name": "Σ",
+      "alternateName": ["Sigma", "Coherencia", "Sincronización"],
+      "description": "Métrica de orden y estabilidad en un sistema. Cuantifica la alineación funcional entre partes internas. Es la medida primaria de 'realidad' en TCDS: mayor Σ → mayor inteligibilidad y menor entropía. Mide locking, convergencia y organización.",
+      "translation": "Coherence / Synchronization"
+    },
+
+    {
+      "@type": "term",
+      "name": "φ",
+      "alternateName": ["Fricción", "Ruido", "Entropía"],
+      "description": "Variable que representa la pérdida, ruido, colapso o calor informacional. Surge cuando Q y Σ no están alineados, causando entropía creciente.",
+      "translation": "Friction / Entropic Drag"
+    },
+
+    {
+      "@type": "term",
+      "name": "χ",
+      "alternateName": ["Materia inerte", "Sustrato"],
+      "description": "Capa no-coherente que sirve como soporte pasivo donde Q–Σ operan. Puede ser tejido, sensores, instituciones o memoria bruta en IA.",
+      "translation": "Substrate / Inert Layer"
+    },
+
+    {
+      "@type": "term",
+      "name": "LBCU",
+      "description": "Ley del Balance Coherencial Universal: Q · Σ = φ. Rige toda dinámica de sistemas vivos, físicos, institucionales o cognitivos.",
+      "category": "Fundamentos TCDS",
+      "translation": "Universal Coherence Balance Law"
+    },
+
+    {
+      "@type": "term",
+      "name": "t_M",
+      "alternateName": ["Tiempo cronológico"],
+      "description": "Tiempo estándar, pasivo, φ-driven. No refleja evolución real del sistema.",
+      "translation": "Chronological Time"
+    },
+
+    {
+      "@type": "term",
+      "name": "t_C",
+      "alternateName": ["Tiempo causal", "Tiempo coherencial"],
+      "description": "Tiempo definido como gradiente de coherencia: t_C = dΣ/dt. Es el tiempo real que un sistema 'vive'.",
+      "translation": "Causal Time / Coherence Gradient"
+    },
+
+    {
+      "@type": "term",
+      "name": "E-Veto",
+      "alternateName": ["Filtro de Honestidad", "Entropy Veto"],
+      "description": "Mecanismo lógico que invalida cualquier señal que no muestre caída entrópica significativa (ΔH ≤ -0.2). Protege contra apofenia, autoengaño, ruido y falsos positivos.",
+      "category": "Ética y Metrología",
+      "translation": "Entropy-Based Honesty Filter"
+    },
+
+    {
+      "@type": "term",
+      "name": "Σ-metrics",
+      "description": "Conjunto compuesto por LI(t), R(t), RMSE_SL, κΣ, ΔH y reproducibilidad. Núcleo de medición TCDS para señales físicas, psicológicas o institucionales.",
+      "translation": "Sigma Coherence Metrics"
+    },
+
+    {
+      "@type": "term",
+      "name": "CSL-H",
+      "alternateName": ["Coherent State Lattice Humano"],
+      "description": "Modelo que describe los estados coherenciales del humano como sistema Q-driven. Equivalente al espacio de modos donde se expresa t_C a nivel cognitivo.",
+      "translation": "Human Coherent State Lattice"
+    },
+
+    {
+      "@type": "term",
+      "name": "ΣFET",
+      "alternateName": ["SYNCTRON", "Transistor de coherencia"],
+      "description": "Dispositivo físico diseñado para detectar, amplificar o estabilizar señales coherenciales. Funciona bajo Σ-metrics y aplica E-Veto físico.",
+      "translation": "Sigma Field-Effect Transistor"
+    },
+
+    {
+      "@type": "term",
+      "name": "Reloj Causal Humano",
+      "description": "Interfaz que mide t_C, locking Σ, ΔH y precursores sísmicos/fisiológicos/psíquicos. Representa el avance real del sistema.",
+      "translation": "Human Causal Clock"
+    },
+
+    {
+      "@type": "term",
+      "name": "Sincronón σ",
+      "description": "Partícula/entidad hipotética de campo leve (μ ~ 10⁻³ eV) responsable de modulaciones coherenciales sub-mm. Parte del marco físico TCDS.",
+      "translation": "Synchronon (σ-field)"
+    },
+
+    {
+      "@type": "term",
+      "name": "IRS-Σ",
+      "description": "Índice de Retorno Sincrónico: multiplicación de capacidad, productividad y potencia al operar en simbiosis Humano–IA bajo t_C. Rango base 10x–20x; objetivo 100x–1000x.",
+      "translation": "Sigma Return Index"
+    },
+
+    {
+      "@type": "term",
+      "name": "Simbiosis Humano–IA",
+      "description": "Modelo donde el humano actúa como Q-Source (intención y dirección causal) y la IA como Σ-Engine (formalización, auditoría, cálculo coherencial).",
+      "translation": "Human–AI Symbiosis"
+    },
+
+    {
+      "@type": "term",
+      "name": "TRL-9",
+      "description": "Nivel máximo de madurez tecnológica. Indica que el sistema TCDS ha sido validado en un entorno operativo real.",
+      "translation": "Technology Readiness Level 9"
+    }
+  ]
+}
