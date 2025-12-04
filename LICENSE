@@ -1,1 +1,113 @@
+TCDS_OmniKernel — Licenciamiento en doble capa
+==============================================
 
+Autor y titular de derechos:
+  - Nombre: Genaro Carrasco Ozuna
+  - Proyecto: Teoría Cromodinámica Sincrónica (TCDS)
+  - Canon DOI: 10.5281/zenodo.17520491
+  - ORCID: 0009-0005-6358-9910
+
+Esta obra se distribuye en dos capas de licencia complementarias:
+
+  (A) Capa de Ciencia Abierta (no comercial)
+  (B) Capa Comercial TCDS (uso comercial y hardware)
+
+------------------------------------------------------------
+(A) Capa de Ciencia Abierta — CC BY-NC-SA 4.0
+------------------------------------------------------------
+
+Salvo indicación explícita en contrario, TODO el contenido textual,
+documental y de código de este repositorio se publica bajo la licencia:
+
+  Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional
+  (CC BY-NC-SA 4.0)
+
+Resumen práctico (no sustituye al texto legal completo):
+
+  - ATRIBUCIÓN (BY):
+      Debes dar crédito adecuado a Genaro Carrasco Ozuna, incluir un enlace
+      a la licencia e indicar si se han realizado cambios. No puedes sugerir
+      que el autor te respalda a ti o a tu uso sin un acuerdo explícito.
+
+  - NO COMERCIAL (NC):
+      No puedes utilizar el material con fines comerciales sin autorización
+      previa y por escrito del autor. “Fines comerciales” incluyen, entre otros:
+        * venta directa del contenido o derivados,
+        * uso dentro de productos o servicios vendidos,
+        * uso como parte de ofertas comerciales, SaaS, consultoría o licitaciones.
+
+  - COMPARTIR IGUAL (SA):
+      Si remezclas, transformas o creas a partir de este material, debes
+      distribuir tus contribuciones bajo la misma licencia (CC BY-NC-SA 4.0).
+
+  - SIN GARANTÍAS:
+      Este material se proporciona “TAL CUAL”, sin garantías de ningún tipo.
+      El autor no será responsable por ningún daño derivado de su uso.
+
+Texto completo de la licencia:
+  https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+------------------------------------------------------------
+(B) Capa Comercial TCDS — Licencia Comercial TCDS
+------------------------------------------------------------
+
+Para cualquier uso que exceda la licencia CC BY-NC-SA 4.0 —en particular:
+
+  1. Uso comercial directo o indirecto:
+      - integración del contenido, código o ideas de TCDS_OmniKernel
+        en productos, servicios, plataformas, APIs o soluciones vendidas,
+        licenciadas o monetizadas de cualquier forma;
+      - uso en propuestas comerciales, licitaciones, consultoría pagada
+        o servicios a terceros.
+
+  2. Implementaciones hardware y de alto impacto:
+      - diseño, fabricación o comercialización de dispositivos basados en
+        ΣFET, Reloj Causal Humano, sensores TCDS o derivados conceptuales;
+      - integración en infraestructuras críticas (energía, transporte,
+        seguridad, defensa, protección civil, salud, etc.);
+      - despliegue a gran escala de nodos Σ vinculados a modelos de negocio.
+
+  3. Re-licenciamiento o sublicenciamiento:
+      - redistribuir este contenido como parte de otra licencia comercial,
+        paquete, SDK o plataforma cerrada.
+
+es OBLIGATORIO contar con un acuerdo de licencia comercial específico,
+denominado:
+
+  “Licencia Comercial TCDS — TCDS_OmniKernel”
+
+La Licencia Comercial TCDS NO se concede automáticamente. Requiere:
+
+  - negociación directa con el autor,
+  - firma de un acuerdo por escrito,
+  - condiciones específicas sobre:
+      * alcance,
+      * territorios,
+      * responsabilidades,
+      * participación o regalías,
+      * auditoría técnica y ética del uso.
+
+Sin dicho acuerdo, cualquier uso comercial se considerará no autorizado.
+
+------------------------------------------------------------
+Contacto para acuerdos comerciales
+------------------------------------------------------------
+
+Para solicitar un acuerdo de Licencia Comercial TCDS, contactar a:
+
+  - Nombre: Genaro Carrasco Ozuna
+  - Correo electrónico: (el autor puede definir el correo oficial)
+  - Referencia: “Licencia Comercial TCDS — TCDS_OmniKernel”
+
+------------------------------------------------------------
+Nota
+------------------------------------------------------------
+
+Esta estructura de doble capa NO limita el uso académico, de investigación,
+experimental o personal no comercial, siempre que:
+  - se respete la atribución al autor,
+  - no haya explotación económica,
+  - se mantenga la licencia CC BY-NC-SA 4.0 en cualquier derivado.
+
+Ante duda razonable sobre si tu uso es comercial o no,
+debes asumir que SÍ lo es y contactar al autor.
