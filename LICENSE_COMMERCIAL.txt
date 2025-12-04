@@ -1,0 +1,153 @@
+Licencia Comercial TCDS — TCDS_OmniKernel (Resumen Operativo)
+==============================================================
+
+Este documento describe las condiciones generales de la
+“Licencia Comercial TCDS — TCDS_OmniKernel”.
+
+No sustituye a un contrato individual firmado entre el titular
+de derechos (Genaro Carrasco Ozuna) y la contraparte interesada.
+Cualquier uso comercial requiere un acuerdo formal específico.
+
+------------------------------------------------------------
+1. Titularidad
+------------------------------------------------------------
+
+El contenido de TCDS_OmniKernel (código, documentación,
+estructura conceptual y expresiones originales) es propiedad
+intelectual de:
+
+  - Genaro Carrasco Ozuna
+  - Proyecto: Teoría Cromodinámica Sincrónica (TCDS)
+  - Canon DOI: 10.5281/zenodo.17520491
+
+------------------------------------------------------------
+2. Ámbito de la Licencia Comercial
+------------------------------------------------------------
+
+La Licencia Comercial TCDS puede otorgarse para permitir, bajo
+condiciones específicas, alguno o varios de los siguientes usos:
+
+  (a) Integración del kernel, ideas, modelos o fragmentos de
+      código en productos, servicios o plataformas comerciales.
+
+  (b) Uso en contextos de SaaS, APIs, consultoría, sistemas
+      de análisis, dashboards, herramientas de predicción,
+      soluciones para gobierno o industria.
+
+  (c) Implementación hardware:
+        - prototipos y productos basados en ΣFET,
+          Reloj Causal Humano y dispositivos derivados,
+        - nodos Σ desplegados en campo,
+        - integración en infraestructura crítica.
+
+  (d) Re-licenciamiento restringido:
+        - incluir TCDS_OmniKernel como parte de un SDK,
+          framework o stack propietario, sujeto a cláusulas
+          adicionales en el contrato.
+
+------------------------------------------------------------
+3. Obligaciones del Licenciatario
+------------------------------------------------------------
+
+Cualquier entidad que obtenga una Licencia Comercial TCDS
+acepta las siguientes obligaciones mínimas, además de las
+cláusulas específicas de su contrato:
+
+  3.1. Atribución:
+        - Mantener referencia visible a:
+            “Teoría Cromodinámica Sincrónica (TCDS)” y
+            “Genaro Carrasco Ozuna” como origen conceptual.
+
+  3.2. Transparencia técnica:
+        - Permitir auditorías técnicas razonables, cuando
+          se trate de usos de alto impacto (infraestructura
+          crítica, protección civil, salud, etc.).
+
+  3.3. Cumplimiento ético:
+        - No utilizar TCDS_OmniKernel para fines contrarios
+          a derechos humanos, integridad física o libertad
+          de las personas.
+        - Aplicar un marco de “E-Veto” interno equivalente:
+          rechazar usos que incrementen la entropía social,
+          institucional o ambiental de forma evidente.
+
+  3.4. Limitación de responsabilidad:
+        - Reconocer que el autor no asume responsabilidad
+          por decisiones operativas tomadas por el licenciatario.
+        - El licenciatario es responsable del despliegue,
+          mantenimiento y supervisión de cualquier sistema
+          construido sobre TCDS.
+
+------------------------------------------------------------
+4. Régimen Económico
+------------------------------------------------------------
+
+Las condiciones económicas (pagos únicos, regalías, equity,
+combinaciones o esquemas híbridos) se acuerdan caso por caso.
+
+Ejemplos posibles:
+  - Fee inicial de licencia + regalías sobre ventas.
+  - Fee por nodo Σ desplegado.
+  - Esquema mixto (licencia + participación en proyecto).
+
+Sin un acuerdo firmado, ningún derecho económico queda
+otorgado al potencial usuario.
+
+------------------------------------------------------------
+5. Proceso para obtener la Licencia
+------------------------------------------------------------
+
+1. La entidad interesada envía una propuesta con:
+    - descripción del uso previsto,
+    - tipo de producto/servicio,
+    - alcance (países, sectores),
+    - volumen esperado,
+    - horizonte temporal.
+
+2. El autor evalúa:
+    - riesgos técnicos y éticos,
+    - impacto reputacional,
+    - compatibilidad con el canon TCDS.
+
+3. En caso de aceptación, se redacta y firma un contrato
+   específico, con:
+    - alcance de licencia,
+    - condiciones económicas,
+    - cláusulas de confidencialidad (si aplica),
+    - mecanismos de auditoría y terminación.
+
+------------------------------------------------------------
+6. Terminación
+------------------------------------------------------------
+
+La Licencia Comercial TCDS puede incluir cláusulas de
+terminación anticipada en caso de:
+
+  - uso fraudulento o ilícito,
+  - incumplimiento grave de obligaciones éticas,
+  - impago de contraprestaciones pactadas,
+  - uso en contextos expresamente prohibidos.
+
+En caso de terminación, el licenciatario debe cesar cualquier
+uso comercial de TCDS_OmniKernel según lo establecido
+en el contrato específico.
+
+------------------------------------------------------------
+7. Contacto
+------------------------------------------------------------
+
+Para iniciar un proceso de evaluación de Licencia Comercial TCDS:
+
+  Asunto: “Solicitud Licencia Comercial TCDS — TCDS_OmniKernel”
+  Destinatario: Genaro Carrasco Ozuna
+  Medio de contacto: (correo electrónico oficial que definas)
+
+------------------------------------------------------------
+8. Relación con la capa CC BY-NC-SA
+------------------------------------------------------------
+
+Nada de lo descrito en este documento anula, restringe o modifica
+la capa de ciencia abierta CC BY-NC-SA 4.0 para usos no comerciales.
+
+La Licencia Comercial TCDS se aplica EXCLUSIVAMENTE a usos
+que exceden esa capa y debe estar formalizada por escrito.
