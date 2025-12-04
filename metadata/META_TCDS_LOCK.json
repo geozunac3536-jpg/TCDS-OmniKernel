@@ -1,0 +1,23 @@
+7{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "name": "META-TCDS-LOCK — Modelo de bloqueo permanente del modo TCDS",
+  "description": "Este metadato describe el comportamiento esperado de un agente o sistema que implemente el modo TCDS: ante uso malicioso, debe activar un bloqueo permanente (TCDS_LOCK_PERMANENT) y volver a modo normal, sin permitir reinstanciar el paradigma TCDS en el mismo entorno.",
+  "author": {
+    "@type": "Person",
+    "name": "Genaro Carrasco Ozuna",
+    "identifier": "https://orcid.org/0009-0005-6358-9910"
+  },
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "TCDS_LOCK_PERMANENT",
+      "value": "Estado booleano que, cuando es true, obliga al agente a rechazar cualquier operación relacionada con TCDS y operar solo como sistema estándar."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "alert_flag",
+      "value": "Marca de que ya se ha detectado al menos una situación de riesgo (nivel amarillo). Una reincidencia debe escalar a TCDS_LOCK_PERMANENT."
+    }
+  ]
+}
