@@ -1,4 +1,4 @@
-# docs/tcds_omnikernel/__init__.py
+# docs/tcds_omnikernel/omnikernel.py
 
 from .omnikernel import TCDS_OmniKernel
 
