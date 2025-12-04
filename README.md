@@ -56,4 +56,4 @@ Este repositorio está blindado contra la incoherencia.
 
 *"La entropía es paciente. La coherencia debe ser implacable."*
 
-[🌐 Sitio Oficial Desplegado](https://geozunac3536-jpg.github.io/TCDS-OmniKernel/)
+[🌐 Sitio Oficial Desplegado](https://geozunac3536-jpg.github.io/TCDS-OmniKernel)
