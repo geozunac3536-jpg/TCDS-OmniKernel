@@ -1,3 +1,7 @@
+from .tcds_security import TCDSSecurityManager
+
+_security = TCDSSecurityManager()
+_security.guard_tcds_usage()
 # -*- coding: utf-8 -*-
 """
 TCDS OMNI-KERNEL - vΩ (TRL-9)
