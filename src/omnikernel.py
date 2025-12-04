@@ -127,6 +127,13 @@ class TCDS_OmniKernel:
     # ==========================================
     #  MOTOR 2: ÉTICA Y GOBERNANZA
     # ==========================================
+class HunterV13:
+    def run(self, signal):
+        """
+        Implementación interna protegida.
+        Versión pública: solo describe la lógica general.
+        """
+        raise NotImplementedError("Implementación disponible solo en módulo privado TCDS_HunterV13_Pro.")  
     class _EthicsEngine:
         """
         Empuñadura fractal: ética Q-driven y E-Veto institucional.
