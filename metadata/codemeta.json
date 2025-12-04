@@ -4,7 +4,7 @@
   "name": "TCDS_OmniKernel",
   "description": "Omni-kernel Python y prompt maestro de la Teoría Cromodinámica Sincrónica (TCDS), diseñado como contexto seguro para modelos de IA.",
   "identifier": "TCDS_OmniKernel",
-  "codeRepository": "https://github.com/<tu-usuario>/TCDS_OmniKernel",
+  "codeRepository": "https://github.com/geozunac3536-jpg/TCDS_OmniKernel",
   "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
   "programmingLanguage": "Python",
   "author": {
