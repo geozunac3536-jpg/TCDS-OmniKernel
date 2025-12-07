@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software or theory, please cite it as below."
+authors:
+- family-names: "Carrasco Ozuna"
+  given-names: "Genaro"
+  orcid: "https://orcid.org/0009-0005-6358-9910"
+title: "TCDS: Teoría Cromodinámica Sincrónica - Canon Operacional TRL-9"
+version: 14.0.0
+doi: 10.5281/zenodo.17848365
+date-released: 2025-12-07
+url: "https://geozunac3536-jpg.github.io/Indice-de-DOI/"
+preferred-citation:
+  type: report
+  authors:
+  - family-names: "Carrasco Ozuna"
+    given-names: "Genaro"
+  doi: "10.5281/zenodo.17848365"
+  journal: "Zenodo"
+  title: "TCDS — Canon Operacional & Auditoría Científica TRL9 (DOI maestro 2025)"
+  year: 2025
