@@ -5,7 +5,7 @@
 
 ## 🌑 Estatus del Núcleo: TRL-9 // ACTIVO
 **Arquitecto:** Genaro Carrasco Ozuna  
-**DOI Canon:** [10.5281/zenodo.17520491](https://doi.org/10.5281/zenodo.17520491)  
+**DOI:[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17520491.svg)](https://doi.org/10.5281/zenodo.17520491)
 **Licencia:** Dual (Open Source / Comercial Restringida)
 
 ---
