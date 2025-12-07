@@ -320,6 +320,186 @@
       }
     },
     {
+  "@id": "https://doi.org/10.5281/zenodo.TBD",
+  "@type": [
+    "CreativeWork",
+    "Dataset"
+  ],
+  "name": "TCDS — Canon Operacional 2025 (DOI maestro)",
+  "alternateName": [
+    "Canon Operacional TCDS 2025",
+    "TCDS — Master DOI",
+    "TCDS — Corpus Operacional Σ 2025"
+  ],
+  "description": "DOI maestro que agrupa el canon operacional 2025 de la Teoría Cromodinámica Sincrónica (TCDS): corpus integral, registro auditable, estándar metrológico del Reloj Causal y Segundo Coherencial, sistema predictivo sísmico Σ-Predictivo y la línea de predicciones sobre el objeto interestelar 3I/ATLAS, junto con los módulos de conciencia (CSL-H) y gradiente económico.",
+  "identifier": [
+    "https://doi.org/10.5281/zenodo.TBD"
+  ],
+  "inLanguage": [
+    "es",
+    "en"
+  ],
+  "creator": {
+    "@id": "#genaro"
+  },
+  "contributor": [
+    {
+      "@id": "#motor-formalizacion"
+    }
+  ],
+  "isPartOf": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.17520491#project"
+    }
+  ],
+  "license": [
+    "https://creativecommons.org/licenses/by/4.0/",
+    "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "https://opensource.org/licenses/MIT",
+    "https://opensource.org/licenses/Apache-2.0"
+  ],
+  "keywords": [
+    "TCDS",
+    "Canon Operacional",
+    "Q–Σ–φ–χ",
+    "Σ-metrics",
+    "E-Veto",
+    "Reloj Causal",
+    "Segundo Coherencial",
+    "ΣFET",
+    "Sistema predictivo sísmico",
+    "3I/ATLAS",
+    "CSL-H",
+    "Gradiente económico",
+    "Registro auditable"
+  ],
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Marco Q–Σ–φ–χ",
+      "description": "Estructura causal universal que articula empuje Q, coherencia Σ, fricción φ y sustrato χ para describir la persistencia ontológica de sistemas físicos, biológicos y socio-técnicos."
+    },
+    {
+      "@type": "Thing",
+      "name": "Canon Operacional TCDS",
+      "description": "Conjunto mínimo suficiente de obras y artefactos que permiten auditar, replicar y falsar la TCDS en 2025: corpus teórico, métricas Σ, E-Veto, Reloj Causal, sistema sísmico Σ-Predictivo y línea 3I/ATLAS."
+    }
+  ],
+  "hasPart": [
+    {
+      "@type": "Dataset",
+      "@id": "https://doi.org/10.5281/zenodo.17505875",
+      "name": "Carpeta1 — Corpus Integral TCDS / TMRCU / Σ-FET"
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://doi.org/10.5281/zenodo.17520491",
+      "name": "Registro Auditable Integral — TCDS (v1.0.0)"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://doi.org/10.5281/zenodo.17443586",
+      "name": "Teoría Cromodinámica Sincrónica (TCDS) — Núcleo Teórico y Licenciamiento"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://doi.org/10.5281/zenodo.17570393",
+      "name": "\"Reloj Causal TCDS y Segundo Coherencial Predictivo (SCP)\""
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://doi.org/10.5281/zenodo.17507622",
+      "name": "TCDS — Sistema Predictivo Sísmico Σ-Predictivo: Validación Empírica del Campo de Coherencia en la Tierra"
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://doi.org/10.5281/zenodo.17605698",
+      "name": "Evento Cero TCDS — Índice t_C Regional del Sismo M7.1 Puebla–Morelos (2017): Implementación Operacional en Termux–Android"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://doi.org/10.5281/zenodo.17606032",
+      "name": "Evento Cero TCDS — Índice t_C Puebla–Morelos (2017)"
+    },
+
+    {
+      "@type": "Dataset",
+      "@id": "https://doi.org/10.5281/zenodo.17148573",
+      "name": "CROMODINÁMICA Y PREDICCIONES de 3I ATLAS"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://doi.org/10.5281/zenodo.17224905",
+      "name": "3IATLAS"
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://doi.org/10.5281/zenodo.17560070",
+      "name": "TCDS 3I ATLAS PREDICCION"
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://doi.org/10.5281/zenodo.17555759",
+      "name": "TCDS 3I ATLAS VALIDACION 2025"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://doi.org/10.5281/zenodo.17562117",
+      "name": "Predicciones espectroscópicas y composición del objeto interestelar 3I/ATLAS"
+    },
+
+    {
+      "@type": "CreativeWork",
+      "@id": "https://doi.org/10.5281/zenodo.17584200",
+      "name": "La Mente"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://doi.org/10.5281/zenodo.17584492",
+      "name": "MENTE TCDS"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://doi.org/10.5281/zenodo.17584450",
+      "name": "Paquete de estudio TCDS sobre La Mente"
+    },
+
+    {
+      "@type": "CreativeWork",
+      "@id": "https://doi.org/10.5281/zenodo.17491112",
+      "name": "TCDS_Gradiente_Economico"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://doi.org/10.5281/zenodo.17494368",
+      "name": "TCDS-Σ Business Plan & Dossier (Dual License, GA4, Web Vitals)"
+    },
+
+    {
+      "@type": "CreativeWork",
+      "@id": "https://doi.org/10.5281/zenodo.17498200",
+      "name": "TCDS-LICENCIAS: Licencias del Proyecto TCDS"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://doi.org/10.5281/zenodo.17462568",
+      "name": "geozunac3536-jpg/LBCU: TCDS v1.0.0: Teoría Operacional y Compendio Inicial"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://doi.org/10.5281/zenodo.17504507",
+      "name": "geozunac3536-jpg/Proyecto_TCDS: Núcleo Teórico y Auditoría Trazable (v1.0.0)"
+    }
+  ],
+  "citation": [
+    "Carrasco Ozuna, G. (2025). Carpeta1 — Corpus Integral TCDS / TMRCU / Σ-FET [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.17505875",
+    "Carrasco Ozuna, G. (2025). Registro Auditable Integral — TCDS (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.17520491",
+    "Carrasco Ozuna, G. (2025). \"Reloj Causal TCDS y Segundo Coherencial Predictivo (SCP)\". Zenodo. https://doi.org/10.5281/zenodo.17570393",
+    "Carrasco Ozuna, G. (2025). TCDS — Sistema Predictivo Sísmico Σ-Predictivo. Zenodo. https://doi.org/10.5281/zenodo.17507622",
+    "Carrasco Ozuna, G. (2025). Línea 3I/ATLAS (predicciones y validación). Zenodo: 10.5281/zenodo.17148573, 10.5281/zenodo.17224905, 10.5281/zenodo.17560070, 10.5281/zenodo.17555759, 10.5281/zenodo.17562117"
+  ]
+    }
+    {
       "@id": "https://tcds.local/hardware/sigmafet",
       "@type": [
         "Product",
