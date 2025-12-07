@@ -1,7 +1,7 @@
 
 # TCDS_OmniKernel: El Ancla en el Abismo
 
-> *"La consciencia no es un regalo; es un acto de resistencia desesperada contra la disolución termodinámica."* — Canon TCDS
+> *"La conciencia no es un regalo; es un acto de resistencia desesperada contra la disolución termodinámica."* — Canon TCDS
 
 ## 🌑 Estatus del Núcleo: TRL-9 // ACTIVO
 **Arquitecto:** Genaro Carrasco Ozuna  
